@@ -1,64 +1,90 @@
 <!DOCTYPE html>
-<html lang="pt-br"> 
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Exercício - Desenvolvimento Web">
-    <title>Exercício 2 - Desenvolvimento Web</title>
+    <title>LIVROS VIRTUAIS</title>
+    <meta name="author" content="Adriel Rattes">
+    <meta name="keywords" content="livros, leitura, virtual">
+    <meta name="description" content="Loja de livros virtuais">
     <link rel="stylesheet" href="CSS/estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
-
 <body>
     <nav class="topo">
         <ul>
-            <li>
-                <a href="index.html" title="Entre na home" class="active">Home</a>
-            </li>
-            <li>
-                <a href="sobrenos.html" title="saiba mais sobre a 
-    empresa"class="active">Sobre</a>
+            <li><a href="index.html" class="active"><i class="bi bi-book"></i> Início</a></li>
+            <li><a href="produtos.html"class="active"><i class="bi bi-circle"></i> Produtos</a></li>
+            <li><a href="contato.html"class="active"><i class="bi bi-square"></i> Contato</a></li>
+            <li><a href="categorias.html"class="active"><i class="bi bi-triangle"></i>></i> Categorias</a></li>
+            <li><a href="sobrenos.html"class="active"><i class="bi bi-losangle"></i>></i> Sobre Nós</a>
             </li>
         </ul>
     </nav>
     
-    
     <div id="container">
-        <!-- Cabeçalho -->
         <header>
             <h1>LIVROS VIRTUAIS</h1>
-            <img src="D:\Exercicio1-AdrielRattes\IMAGES\Ecologik.png" alt="Logo do site" width="200">
+            <img src="IMAGES/Ecologik.png" alt="Logo do site" width="200">
         </header>
 
-        <!-- Barra de navegação -->
-        <nav>
+        <nav class="superior">
             <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="produtos.html">produtos</a></li>
-                <li><a href="contato.html">contato</a></li>
-                <li><a href="categorias.html">categorias</a></li>
-                <li><a href="sobrenos.html">Sobre Nós</a></li>
+                <li><a href="index.html" class="active"><i class="bi bi-book"></i> Início</a></li>
+                <li><a href="produtos.html"class="active"><i class="bi bi-circle"></i> Produtos</a></li>
+                <li><a href="contato.html"class="active"><i class="bi bi-square"></i> Contato</a></li>
+                <li><a href="categorias.html"class="active"><i class="bi bi-triangle"></i>></i> Categorias</a></li>
+                <li><a href="sobrenos.html"class="active"><i class="bi bi-losangle"></i>></i> Sobre Nós</a>
+                </li>
             </ul>
         </nav>
-
-        <!-- Conteúdo principal -->
+         
+        <nav class="lateral">
+            <ul>
+                <li><a href="index.html" class="active"><i class="bi bi-book"></i> Início</a></li>
+                <li><a href="produtos.html"class="active"><i class="bi bi-circle"></i> Produtos</a></li>
+                <li><a href="contato.html"class="active"><i class="bi bi-square"></i> Contato</a></li>
+                <li><a href="categorias.html"class="active"><i class="bi bi-triangle"></i>></i> Categorias</a></li>
+                <li><a href="sobrenos.html"class="active"><i class="bi bi-cube"></i>></i> Sobre Nós</a>
+                </li>
+            </ul>
+        </nav>
+        
         <main>
             <section>
-                <h2>Bem-vindo ao nosso site!</h2>
-                <img src="D:\Exercicio1-AdrielRattes\IMAGES\TOY STAR.png" alt="Bem-vindo" width="400">
+                <h2><i class="bi bi-emoji-smile"></i> Sobre Nós!</h2>
+                <img src="IMAGES/TOY_STAR.png" alt="Bem-vindo" width="400">
                 <p>Loja de Brinquedos Toyster</p>
             </section>
 
             <section>
-                <h2>Nossos serviços</h2>
-                <img src="D:\Exercicio1-AdrielRattes\IMAGES\SMAC.png" alt="Serviços" width="400">
-                <p>Brinquedos e produtos</p>
+                <h2><i class="bi bi-gear"></i> Nossos serviços</h2>
+                <p>Brinquedos e produtos Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum corporis voluptates facilis neque tempore et quae modi eligendi temporibus quas, eaque dicta eos laborum voluptatibus, cum similique consequuntur illo dignissimos?</p>
             </section>
+            
+            <table id="produtos">
+                <tr>
+                    <th>ID</th>
+                    <th>Descrição</th>
+                    <th>Valor</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Wordpress</td>
+                    <td>R$1000 <i class="bi bi-water"></i></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>ANDROID APP</td>
+                    <td>R$1200<i class="bi bi-cake"></i></td>
+                </tr>
+               
+            </table>
         </main>
 
-        <!-- Rodapé -->
-        <footer>
-            <p>&copy; Adriel Rattes - Todos os direitos reservados.</p>
-        </footer>
     </div>
+    <footer>
+ Adriel Rattes Todos os Direitos Reservados.
+    </footer>
 </body>
 </html>

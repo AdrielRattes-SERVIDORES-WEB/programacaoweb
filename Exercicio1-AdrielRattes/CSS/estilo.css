@@ -16,8 +16,8 @@
 }
 
 body {
-    font-family: "Tektur", sans-serif;
-    background-image: url('../IMAGES/fundo.png');
+    font-family: "Arial", Arial, Helvetica, sans-serif;
+    background-image: url('../IMAGES/Screenshot_35.png');
     background-attachment: fixed;
     background-color: #f4f4f9;
     padding-top: 60px;
@@ -32,9 +32,9 @@ header {
     width: 98%;
     padding: 1%;
     height: auto;
-    background-color: #00ff08;
+    background-color: rgba(3, 252, 11, 0.822);
     color: white;
-    font-family: "Game_Over";
+    font-family: "Arial";
     text-align: center;
 }
 
@@ -47,7 +47,7 @@ nav.topo {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #333;
+    background-color: #000000;
     z-index: 1000;
 }
 
@@ -77,7 +77,7 @@ nav.topo li a:hover {
 }
 
 nav.topo .active {
-    background-color: #00ff08;
+    background-color: rgba(3, 252, 11, 0.822);
 }
 
 nav.superior {
@@ -116,13 +116,13 @@ nav.superior li a:hover {
 }
 
 nav.superior .active {
-    background-color: #00ff08;
+    background-color: rgba(3, 252, 11, 0.822);
 }
 
 nav.lateral {
     float: left;
     width: 29%;
-    background-color: rgba(8, 255, 16, 0.3);
+    background-color: rgba(3, 252, 11, 0.822);
     font-family: 'Kanit';
 }
 
@@ -141,7 +141,7 @@ nav.lateral li a {
 
 nav.lateral li a:hover {
     background-color: #ddd;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 main {
@@ -190,8 +190,11 @@ main h2 {
 }
 
 footer {
-    margin-top: 1%;
-    background-color: SteelBlue;
-    width: 100%;
-    height: 400px;
+    margin-top: 60%;
+    background-color: rgb(41, 248, 0);
+    width: 100% ;
+    height: 100px;
+    text-align: center;
+    text-size-adjust: 10px;
+    text-decoration-color: aliceblue;
 }
